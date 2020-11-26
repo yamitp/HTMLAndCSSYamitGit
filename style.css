@@ -1,0 +1,158 @@
+/*body*/
+body{
+    margin: 0;
+    height: 100%;
+    background-image: url("https://i.ibb.co/nfPnSvV/IMG-20190511-081444-919.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 90% 30%;
+}
+/*div כללי*/
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-image: linear-gradient(to right, #ffc0a3 , #cc78aa52);
+}
+/*תמונת רקע*/
+.image-card {
+    width: 45%;
+    height: 100%;
+    padding: 20px;
+    margin-right: 50%;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000070;
+    border-right: 1px solid #b6b6b6;
+    border-left: 1px solid #b6b6b6;
+}
+/*כותרת*/
+h1 {
+    color: #900806;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*טקסט*/
+.regular_text{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*כלל הדף*/
+*{
+    font-family: "David", sans-serif;
+}
+
+/*כפתור*/
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+/*פסקה*/
+p {
+    font-family: arial, sans-serif;
+    color: #636363;
+    text-align: left;
+    padding-left: 10px;
+}
+/*קישור*/
+a {
+    text-decoration: none;
+    color: black;
+}
+/*קישור בטבלה*/
+table a
+{
+    display:block;
+    text-decoration:none;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*טבלה*/
+table{
+    width:100%;
+    border-collapse: collapse;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+/*קישור*/
+a{
+    color: #900801;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*עמודה*/
+table th, table td{
+    width:33%;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+}
+/*עמודת כותרת*/
+th {
+
+    color: #a20a0a;
+}
+/*דירוג*/
+.star{
+    width: 10px;
+}
+/*כשמרחפים מעל שורה*/
+table:hover tbody tr{
+    opacity: 0.5;
+    transition: all 100ms linear;
+}
+/*כשמרחפים מעל שורה*/
+table:hover tbody tr:hover{
+    opacity: 1;
+    transition: all 200ms linear;
+}
+/*כשמרחפים מעל טקסט*/
+table span:hover {
+    font-weight: 700;
+}
+/*כלל הדף*/
+* {
+    overflow: hidden;
+}
+
+/*אייקון לב*/
+#title>span{
+    border-bottom-width: 1px;
+    border-bottom-color: darkgray;
+    border-bottom-style: solid;
+    color: #444;
+    font-size: 18px;
+}
+/*כותרת*/
+#title{
+    margin-top: 50px;
+}
+/*כותרת*/
+#animated h1{
+    font-size: 2em;
+    transition: all 250ms linear;
+}
+/*כשמרחפים מעל כותרת*/
+#animated:hover h1{
+    font-size: 2.1em;
+    transition: all 150ms linear;
+}
+/*אנימציצה של גובה*/
+#animated{
+    height: 5em;
+}
